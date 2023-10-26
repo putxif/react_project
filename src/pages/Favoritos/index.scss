@@ -1,0 +1,16 @@
+.favorites {
+  .list-buttons {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    .small-button {
+      margin-right: 10px;
+      &.prev {
+        >img {
+          transform: rotate(180deg);
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}
